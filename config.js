@@ -64,8 +64,8 @@ const CONFIG = {
     {
       id: '3',
       name: 'WhatsApp',
-      icon: 'whatsapp',
-      link: 'https://todoist.com',
+      icon: 'message-circle',
+      link: 'https://web.whatsapp.com',
     },
     {
       id: '4',
@@ -80,45 +80,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'code-2',
+  secondListIcon: 'wrench',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Portfolio',
+        link: 'https://flowei.tech',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Blog',
+        link: 'https://blog.flowei.tech',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Humcast',
+        link: 'https://humcast.de',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Humcast Admin',
+        link: 'https://humcast.de/admin',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Trello',
+        link: 'https://trello.com/',
       },
       {
         name: 'Figma',
         link: 'https://figma.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Contabo Cockpit',
+        link: 'https://cpt.flowei.tech',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'TS Admin Interface',
+        link: 'https://tsi.flowei.tech',
       },
     ],
   },
