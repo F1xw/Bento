@@ -11,35 +11,35 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Florian',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Guten Morgen!',
+  greetingAfternoon: 'Guten Nachmittag,',
+  greetingEvening: 'Guten Abend!,',
+  greetingNight: 'Geh langsam schlafen!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '61a3f101463e27dfed033f3f1a22c402',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'de', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '51.1833',
+  defaultLongitude: '7.0833',
 
   // Autochange
   autoChangeTheme: true,
 
   // Autochabge by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: true, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
@@ -53,37 +53,25 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/F1xw',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Nextcloud',
+      icon: 'cloud',
+      link: 'https://cloud.flowei.tech/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
+      name: 'WhatsApp',
+      icon: 'whatsapp',
       link: 'https://todoist.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
-    },
-    {
-      id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com',
     },
   ],
 
