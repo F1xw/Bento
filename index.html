@@ -54,6 +54,12 @@
         </div>
       </div>
 
+      <div class="search">
+        <form action="https://google.com/search" method="get">
+          <input type="search" name="q" id="search" placeholder="What are you looking for?" />
+        </form>
+      </div>
+
       <!-- 
         ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
         ├┴┐│ │ │  │ │ ││││└─┐
@@ -86,6 +92,8 @@
     <script src="assets/js/lists.js"></script>
     <script>
       lucide.createIcons();
+
+      document.getElementById("search").focus();
     </script>
   </body>
 
