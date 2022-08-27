@@ -17,10 +17,10 @@ const CONFIG = {
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Guten Morgen!',
+  greetingMorning: 'Guten Morgen,',
   greetingAfternoon: 'Guten Nachmittag,',
-  greetingEvening: 'Guten Abend!,',
-  greetingNight: 'Geh langsam schlafen!',
+  greetingEvening: 'Guten Abend,',
+  greetingNight: 'Geh langsam schlafen,',
 
   // Weather
   weatherKey: '61a3f101463e27dfed033f3f1a22c402',
@@ -33,10 +33,10 @@ const CONFIG = {
   defaultLongitude: '7.0833',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
-  changeThemeByOS: true, 
+  changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: false,
@@ -53,7 +53,7 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/F1xw',
+      link: 'https://github.com/',
     },
     {
       id: '2',
@@ -73,6 +73,12 @@ const CONFIG = {
       icon: 'youtube',
       link: 'https://youtube.com',
     },
+    {
+      id: '5',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://twitch.com',
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -80,28 +86,24 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'code-2',
+  firstListIcon: 'shopping-cart',
   secondListIcon: 'wrench',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Portfolio',
-        link: 'https://flowei.tech',
+        name: 'Amazon',
+        link: 'https://amazon.de',
       },
       {
-        name: 'Blog',
-        link: 'https://blog.flowei.tech',
+        name: 'Geizhals',
+        link: 'https://geizhals.de',
       },
       {
-        name: 'Humcast',
-        link: 'https://humcast.de',
-      },
-      {
-        name: 'Humcast Admin',
-        link: 'https://humcast.de/admin',
-      },
+        name: 'Mindfactory',
+        link: 'https://mindfactory.de',
+      }
     ],
     secondList: [
       {
@@ -111,10 +113,6 @@ const CONFIG = {
       {
         name: 'Figma',
         link: 'https://figma.com/',
-      },
-      {
-        name: 'Contabo Cockpit',
-        link: 'https://cpt.flowei.tech',
       },
       {
         name: 'TS Admin Interface',
